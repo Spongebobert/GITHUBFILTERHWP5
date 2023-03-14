@@ -1,8 +1,13 @@
-preload(){
+function preload(){
     
 }
-setup(){
-    createCanvas()/
+function setup(){
+    createCanvas(640,480)
+    canvas.position(110,250)
 }
-draw()
-take_snapshot()
+function draw(){
+    
+}
+function take_snapshot(){
+    save('image.png')
+}
