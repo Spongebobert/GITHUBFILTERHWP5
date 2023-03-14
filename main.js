@@ -2,8 +2,10 @@ function preload(){
     
 }
 function setup(){
-    createCanvas(640,480)
-    canvas.position(110,250)
+  
+    canvas = createCanvas(640,480);
+    canvas.position(110,250);
+  
 }
 function draw(){
     
@@ -11,3 +13,4 @@ function draw(){
 function take_snapshot(){
     save('image.png')
 }
+
